@@ -1,0 +1,61 @@
+{% load static %}
+<header>
+    <div class="header__content-wrapper">
+        <nav>
+            <ul class="header__nav-list">
+                <li id="close-dropdown-menu" class="header__nav-list-element">
+                    <i class="fa-solid fa-xmark"></i>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="{% url 'rules' %}">Правила</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="{% url 'index' %}#rates">Тарифы</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="{% url 'notfound' %}">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a class="header__desktop-logo" href="{% url 'index' %}">
+            <div class="header__logo">
+                <img src="{% static 'images/logo.svg' %}" alt=""/>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </a>
+
+        <div class="header__mobile-logo header__logo">
+            <a href="index.html">
+                <img src="{% static 'images/logo.svg' %}" alt=""/>
+            </a>
+            <i id="toggle-nav" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="contacts">
+            <div class="contacts__tel-group">
+                <a class="contacts__number" href="{{ Telephone.url }}">
+                    {{ Telephone.display }}
+                </a>
+
+                <span class="contacts__tel-desc">
+                    {{ schedule.info | safe }}
+                </span>
+            </div>
+
+            <div class="contacts__messenger-group">
+                <div class="contacts__messenger-icon">
+                    <a href="{{ Whatsapp.url }}">
+                        <img src="{% static 'images/wa.svg' %}" alt=""/>
+                    </a>
+                </div>
+
+                <div class="contacts__messenger-icon">
+                    <a href="{{ Telegram.url }}">
+                        <img src="{% static 'images/tg.svg' %}" alt=""/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

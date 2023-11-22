@@ -1,0 +1,32 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="{% static 'images/favicon.svg' %}">
+    <title>{{ title }}</title>
+
+    {% block css %}
+    {% endblock %}
+
+    <script src="https://kit.fontawesome.com/fed00610f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+{% include 'products/header.html' %}
+
+{% block content %}
+{% endblock %}
+
+{% include 'products/footer.html' %}
+
+<button id="scrollToTopButton" class="hidden" onclick="scrollToTop()">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+{% block js %}
+{% endblock %}
+</body>
+</html>

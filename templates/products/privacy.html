@@ -1,0 +1,39 @@
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/privacy.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/contacts.css' %}">
+{% endblock %}
+
+{% block content %}
+    <main>
+        <section>
+            <div class="h2-wrapper">
+                <h2>Политика конфиденциальности</h2>
+            </div>
+
+            {% for block in PrivacyBlocks %}
+                <div class="privacy-block{% if block.number > 2 %} hidden{% endif %}">
+                    <div class="h3-wrapper">
+                        <h3>{{ block.number }}. {{ block.title }}</h3>
+                    </div>
+                    {{ block.content | safe }}
+                </div>
+            {% endfor %}
+
+            <span id="load-more-button">
+                Открыть полный текст
+            </span>
+        </section>
+    </main>
+{% endblock %}
+
+{% block js %}
+    <script defer src="{% static 'js/load-more.js' %}"></script>
+    <script defer src="{% static 'js/dropdown-menu.js' %}"></script>
+    <script defer src="{% static 'js/scroll-to-top-button.js' %}"></script>
+{% endblock %}

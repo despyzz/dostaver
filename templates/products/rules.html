@@ -1,0 +1,99 @@
+{% extends 'products/base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/rules.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/contacts.css' %}">
+{% endblock %}
+
+{% block content %}
+    <main>
+        <section class="section-1">
+            <div class="h2-wrapper"><h2>Полные правила</h2></div>
+            <i class="fa-solid fa-truck delivery-icon"></i>
+            <div class="h3-wrapper"><h3>Процесс доставки</h3></div>
+
+            <div class="section-1__rules-wrapper">
+
+                {% for block in ProcessesBlocks %}
+                    <div class="section-1__rule rule-{{ block.number }}">
+                        <div class="section-1__rule-number">
+                            {{ block.number }}
+                        </div>
+                        <div class="section-1__rule-description">
+                            {{ block.title | safe }}
+                        </div>
+                        {{ block.content | safe }}
+                    </div>
+                {% endfor %}
+
+            </div>
+        </section>
+
+        <section class="section-2">
+            <i class="fa-solid fa-box box-icon"></i>
+            <h3>Упаковка</h3>
+            <div class="section-2__text-wrapper">
+                <p>Заказ должен быть упакован в <span>коробку</span> или <span>герметичный пакет</span></p>
+                <p>К упаковке должна быть прикреплена накладная как <span>минимум с номером телефона</span> клиента. Дополнительная
+                    информация не обязательна, но приветствуется</p>
+            </div>
+        </section>
+
+        <section class="section-3">
+            <i class="fa-solid fa-circle-info information-icon"></i>
+            <h3>Способы передачи информации о заказах:</h3>
+            <div class="tables-wrapper">
+                <div class="table">
+                    <div class="table-cell">
+                        Как
+                    </div>
+                    <div class="table-cell">
+                        Табличкой в Эксель в любом формате
+                    </div>
+                    <div class="table-cell">
+                        Обычным текстом
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="table-cell">
+                        Куда
+                    </div>
+                    <div class="table-cell">
+                        <a href="{{ Telegram.url }}">Telegram</a>
+                    </div>
+                    <div class="table-cell">
+                        <a href="{{ Whatsapp.url }}">WhatsApp</a>
+                    </div>
+                    <div class="table-cell">
+                        <p>На электронную почту <a href="mailto:order@dostaver.com"><span>order@dostaver.com</span></a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4">
+            <div class="block">
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <h3>Выручка</h3>
+                <p>Мы вычтем из выручки наше вознаграждение согласно отчёту и отправим её на Ваш расчётный счет <span>на
+                    следующий день после доставок</span></p>
+            </div>
+            <div class="block">
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <h3>Отчет</h3>
+                <p>Вместе с выручкой мы отправим отчёт. В нём будет содержаться статистика и информация о доставках,
+                    выполненных в отчётный день</p>
+                <a href="{% url 'notfound' %}"><span class="report-sample">Пример отчета</span></a>
+            </div>
+        </section>
+</main>
+{% endblock %}
+
+{% block js %}
+    <script defer src="{% static 'js/dropdown-menu.js' %}"></script>
+    <script defer src="{% static 'js/scroll-to-top-button.js' %}"></script>
+{% endblock %}

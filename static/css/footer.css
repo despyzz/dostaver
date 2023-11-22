@@ -1,0 +1,61 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 17.1rem;
+    height: auto;
+    background-color: #fff;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.footer__logo {
+    background-color: white;
+}
+
+.footer__intelligence {
+    display: flex;
+    flex-direction: column;
+    color: #4C0085;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a span{
+    color: #4C0085;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+    padding-bottom: 3px;
+    border-bottom: 1px #4C0085 dashed;
+}
+
+footer .contacts__tel-group,
+footer .contacts__number {
+    color: #7700D1;
+}
+
+@media (max-width: 1100px) {
+    footer {
+        padding-top: 4rem;
+        padding-bottom: 4.5rem;
+        flex-direction: column;
+    }
+
+    footer .footer__links {
+        order: 1;
+        gap: 2.5rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

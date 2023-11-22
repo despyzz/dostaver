@@ -1,0 +1,115 @@
+.form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form__tel-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    z-index: 1;
+}
+
+.form__tel {
+    width: 28.4rem;
+    height: 8.6rem;
+    text-align: left;
+    padding-left: 3.3rem;
+    border-radius: 4.3rem;
+    border: 0;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    outline: none;
+    color: #4C0085;
+}
+
+.form__tel:focus {
+    color: #4C0085;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.form__tel::placeholder {
+    opacity: 1;
+}
+
+.form__tel:focus::placeholder {
+    opacity: 0;
+}
+
+.form__callback {
+    width: 28.4rem;
+    height: 8.6rem;
+    border-radius: 4.3rem;
+    border: 0;
+    background: linear-gradient(180deg, #FFE149 0%, #FFE149 0.01%, #FFD500 100%, #FFD500 100%);
+    color: #3E3300;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.form__callback:hover {
+    cursor: pointer;
+}
+
+.form__callback:disabled {
+    cursor: default;
+    background: #fff1b7;
+    color: #857134;
+}
+
+.form__checkbox-wrapper {
+    margin-top: 1.5rem;
+    z-index: 1;
+}
+
+.form__checkbox {
+    display: inline-flex;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #7700D1;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 1.2rem
+}
+
+.form__checkbox:hover {
+    cursor: pointer;
+}
+
+.form__checkbox > i {
+    opacity: 0;
+}
+
+.form__agreement {
+    margin-left: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.form__link {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px #fff dashed;
+}
