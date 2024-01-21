@@ -1,0 +1,1132 @@
+.section-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 76.4rem;
+    width: 100%;
+}
+
+.section-1__content-wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    max-width: 192rem;
+    width: 100%;
+    background: center / cover no-repeat url("../images/s1-background.svg");
+}
+
+.section-1__images-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.section-1__header {
+    margin-top: 6.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff
+}
+
+.section-1__header-delivery {
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.6rem;
+    margin-bottom: 1rem;
+}
+
+.section-1__header-area {
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.8rem;
+    margin-bottom: 3rem;
+}
+
+.section-1__description {
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-align: center;
+    max-width: 75.9rem;
+    width: 100%;
+    margin-bottom: 5rem;
+    color: #FFF;
+}
+
+.section-1__97-wrapper {
+    position: absolute;
+    top: calc(50% - 14rem);
+    right: calc(50% + 35rem);
+}
+
+.section-1__97 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    rotate: -21.242deg;
+}
+
+.section-1__97-ellipse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12.8rem;
+    height: 12.8rem;
+    border-radius: 50%;
+    color: #4C0085;
+    background-color: #fff;
+}
+
+.section-1__percents {
+    font-size: 3.6rem;
+}
+
+.section-1__orders {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-1__97-description {
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 13.6rem;
+    margin-top: 1rem;
+}
+
+.section-1__97-description span {
+    font-weight: bold;
+}
+
+.section-1__stock {
+    display: none;
+}
+
+.section-1__route {
+    display: none;
+}
+
+.section-1__route-wrapper {
+    display: none;
+    position: relative;
+}
+
+@media (max-width: 1000px) {
+    .section-1__header-delivery {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+    }
+
+    .section-1__header-area {
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+
+    .section-1__description {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .section-1__97-wrapper {
+        position: static;
+        margin-bottom: 4.5rem;
+    }
+
+    .section-1__97 {
+        rotate: none;
+    }
+
+    .section-1__stock {
+        display: block;
+        width: 26rem;
+        height: 15.8rem;
+    }
+
+    .section-1__route {
+        position: absolute;
+        display: block;
+        top: -2.1rem;
+        right: -16rem;
+        transform: rotate(5.009deg);
+    }
+
+    .section-1 > * {
+        padding: 0 3rem;
+    }
+
+    .section-1 {
+        height: auto;
+    }
+
+    .section-1__content-wrapper {
+        background-image: none;
+    }
+
+    .section-1 form {
+        margin-bottom: 3rem;
+    }
+
+    .section-1__route-wrapper {
+        display: block;
+        margin-bottom: 2rem;
+    }
+}
+
+.section-2 {
+    margin-top: 10.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2__content-wrapper {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 192rem;
+    width: 100%;
+}
+
+.section-2__header {
+    color: #FFF;
+    text-align: center;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.5rem;
+}
+
+.section-2__description {
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 6.3rem;
+}
+
+.section-2__table {
+    position: relative;
+    display: grid;
+    max-width: 77.1rem;
+    width: 100%;
+    height: 67.5rem;
+    color: #FFF;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+    z-index: 1;
+}
+
+.section-2__table-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.section-2__table-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7700D1;
+    border-bottom: 1px #fff solid;
+    border-right: 1px #fff solid;
+}
+
+.section-2__table-cell:first-child {
+    display: flex;
+    justify-content: left;
+    padding-left: 5rem;
+    align-items: center;
+    background-color: white;
+    border-bottom-color: #7700D1;
+    color: #7700D1;
+}
+
+.section-2__table-row:first-child .section-2__table-cell{
+    background-color: white;
+    border-right-color: #7700D1;
+    color: #7700D1;
+}
+
+.section-2__table-row:first-child .section-2__table-cell:last-child {
+    border-right-color: #fff;
+}
+
+.section-2__table-row:first-child .section-2__table-cell:first-child {
+    color: white;
+    border: 1px #fff solid;
+    background-color: #7700D1;
+}
+.section-2__table-row:nth-child(2) .section-2__table-cell:first-child{
+    color: white;
+    border-left: 1px #fff solid;
+    background-color: #7700D1;
+}
+
+.section-2__top-left-cell {
+    border-radius: 3.8rem 0 0 0;
+}
+
+.section-2__top-right-cell {
+    border-radius: 0 3.8rem 0 0;
+}
+
+.section-2__bottom-left-cell {
+    border-radius: 0 0 0 3.8rem;
+
+}
+
+.section-2__bottom-right-cell {
+    border-radius: 0 0 3.8rem 0;
+}
+
+.section-2__route1 {
+    position: absolute;
+    background-image: url(../images/route-2.svg);
+    width: 38.7rem;
+    height: 17rem;
+    background-repeat: no-repeat;
+    top: 37.7rem;
+    left: -30.4rem;
+}
+
+.section-2__route2 {
+    position: absolute;
+    background-image: url(../images/route-3.svg);
+    width: 36.9rem;
+    height: 18rem;
+    background-repeat: no-repeat;
+    top: 5.7rem;
+    right: -38.2rem;
+}
+
+.section-2__auto-wrapper {
+    margin-top: 5rem;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .section-2 {
+        margin-top: 3.8rem;
+    }
+
+    .section-2 > * {
+        padding: 0 3rem;
+    }
+
+    .section-2__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .section-2__description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .section-2__table {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        height: 43.2rem;
+    }
+
+    .section-2__table-cell:first-child {
+        padding-left: 1.6rem;
+    }
+
+    .section-2__auto-wrapper {
+        display: block;
+        position: relative;
+    }
+
+    .section-2__auto {
+        width: 29.2rem;
+        height: 14.4rem;
+    }
+
+    .section-2__route-1 {
+        position: absolute;
+        transform: rotate(5.009deg);
+        top: -4.8rem;
+        right: 21.2rem;
+    }
+
+    .section-2__route-2 {
+        position: absolute;
+        rotate: 1deg;
+        top: -16.8rem;
+        right: -4.3rem;
+    }
+
+    .section-2__route1,
+    .section-2__route2 {
+        display: none;
+    }
+}
+
+.section-3 {
+    overflow: hidden;
+    margin-top: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.section-3__header {
+    color: #FFF;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.7rem;
+    text-align: center;
+}
+
+.section-3__description {
+    color: #FFF;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 6.3rem;
+}
+
+.section-3__info-blocks-wrapper {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5.4rem;
+    width: 100%;
+    max-width: 117rem;
+    gap: 3rem;
+}
+
+.section-3__block {
+    width: 57rem;
+    height: auto;
+    border-radius: 3.8rem;
+    background-color: #fff;
+    padding-top: 5.2rem;
+    padding-left: 5rem;
+    min-height: 30rem;
+}
+
+.section-3__block-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-3__block-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.8rem;
+    height: 5.8rem;
+    border-radius: 50%;
+    background-color: #7700D1;
+    margin-right: 3rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.section-3__block-description p {
+    color: #4C0085;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+
+.section-3__block-text {
+    margin-top: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 43.6rem;
+    width: 100%;
+    gap: 3rem;
+    color:#4C0085;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+}
+
+.section-3__block:nth-child(2) .section-3__block-text,
+.section-3__block:nth-child(4) .section-3__block-text {
+    max-width: 47.3rem;
+    width: 100%;
+}
+
+.section-3__block:nth-child(3) .section-3__block-text {
+    max-width: 41.1rem;
+    width: 100%;
+}
+
+.section-3__block-text p span {
+    font-weight: bold;
+}
+
+.section-3__block-link {
+    color: #7700D1;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #7700D1;
+    margin-bottom: 3rem;
+}
+
+.section-3__block-text a {
+    color: #7700D1;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding: 4px;
+    border-bottom: 1px dashed #7700D1;
+}
+
+.section-3__more-details {
+    color: #FFF;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px #fff dashed;
+    margin-bottom: 10.3rem;
+}
+
+.section-3__images-wrapper {
+    position: relative;
+    max-width: 57rem;
+    width: 100%;
+}
+
+@media (min-width: 1230px) {
+    .section-3__images-wrapper {
+        max-width: 120rem;
+    }
+}
+
+.box {
+    position: absolute;
+    width: 19rem;
+    height: 19rem;
+}
+
+.section-3__box1 {
+    bottom: 3rem;
+    right: -25rem;
+}
+
+.section-3__box2 {
+    bottom: 3rem;
+    right: -43.5rem;
+}
+
+.section-3__box3 {
+    bottom: 3rem;
+    left: -25rem;
+}
+
+.section-3__box4 {
+    bottom: 3rem;
+    left: -43.5rem;
+}
+
+.section-3__house-wrapper {
+    position: relative;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4.2rem;
+}
+
+.section-3__route {
+    position: absolute;
+    top: -9.1rem;
+    right: 12.8rem;
+}
+
+.section-3__map-point {
+    width: 4rem;
+    height: 5.4rem;
+}
+
+.section-3__house {
+    width: 25.7rem;
+    height: 25.4rem;
+}
+
+@media (max-width: 1000px) {
+    .section-3 {
+        margin-top: 3.8rem;
+    }
+
+    .section-3__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .section-3__description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .section-3__block {
+        padding: 3rem;
+    }
+
+    .section-3__block-header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section-3__block-number {
+        margin: 0;
+        align-self: center;
+    }
+
+    .section-3__images-wrapper {
+        display: none;
+    }
+
+    .section-3__house-wrapper {
+        display: flex;
+    }
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3rem;
+    text-align: center;
+}
+
+.section-4__description {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-4__header {
+    color: #FFF;
+    text-align: center;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5rem;
+}
+
+.section-4__description {
+    color: #FFF;
+    align-items: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.section-4__description span {
+    margin-bottom: 5rem;
+}
+
+
+.section-4__payment {
+    width: 36.8rem;
+    height: 38rem;
+    margin-top: 6rem;
+    margin-bottom: 13.2rem;
+}
+
+@media (max-width: 1000px) {
+
+    .section-4__payment {
+        width: 26.1rem;
+        height: 26.9rem;
+        margin-bottom: 4.8rem;
+    }
+
+    .section-4__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .section-4__description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+.section-5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.section-5__information-blocks-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.section-5__information-block_w50 {
+    width: calc(50% - 2rem);
+}
+
+.section-5__information-block_w33 {
+    width: calc(33.33% - 2rem);
+}
+
+.section-5__content-wrapper {
+    height: auto;
+    max-width: 151.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3.8rem;
+    margin-bottom: 10.4rem;
+}
+
+.section-5__header {
+    margin-top: 10.1rem;
+    color: #4C0085;
+    text-align: center;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-5__information-block {
+    color: #4C0085;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin: 5rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-5__information-block i {
+    margin-bottom: 3rem;
+}
+
+.section-5__information-block_w33 p {
+    max-width: 30rem;
+}
+
+.section-5__information-block_w50 p {
+    max-width: 50rem;
+}
+
+.section-5__information-block p span {
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .section-5__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+        padding: 0 3rem;
+    }
+
+    .section-5__information-blocks-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-5__information-block_w50,
+    .section-5__information-block_w33 {
+        padding: 3rem;
+        width: calc(100% - 2rem);
+    }
+}
+
+.section-6 {
+    padding: 0 3rem;
+}
+
+.section-6__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-6__header {
+    max-width: 91.3rem;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-6__description {
+    margin-top: 3rem;
+    max-width: 95rem;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.section-6__description span {
+    font-weight: bold;
+}
+
+.section-6__cards {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 11.9rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-6__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 37rem;
+    width: 100%;
+    padding: 3rem 0;
+    /*height: 28.2rem;*/
+    flex-shrink: 0;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 3.8rem;
+    gap: 3rem;
+}
+
+.section-6__card-icon {
+    font-size: 2.4rem;
+}
+
+.section-6__card-header {
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.section-6__card-description {
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+@media (max-width: 1000px) {
+    .section-6__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+        text-align: left;
+    }
+
+    .section-6__description {
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: left;
+    }
+
+    .section-6__card-description {
+        padding: 0 3rem
+    }
+}
+
+.section-7__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 130rem;
+}
+
+.section-7__header {
+    width: 100%;
+    max-width: 80rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.7rem;
+}
+
+.section-7__description {
+    width: 100%;
+    max-width: 80rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.section-7__description span {
+    font-weight: bold;
+}
+
+.section-7__images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2.7rem;
+    margin-bottom: 2.7rem;
+}
+
+.section-7__info-circle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 29.2rem;
+    height: 29.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-7__info-circle-description {
+    max-width: 30rem;
+}
+
+.section-7__info-circle-header {
+    color: #4C0085;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.section-7__info-circle-description {
+    color: #4C0085;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.section-7__info-circle-1 {
+    right: 30rem;
+    top: 4.2rem;
+}
+
+.section-7__info-circle-2 {
+    right: 12rem;
+    top: 44.3rem;
+    z-index: 1;
+}
+
+.section-7__info-circle-3 {
+    top: 4.2rem;
+    left: 24rem;
+}
+
+.section-7__auto {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 73.2rem;
+    height: 35.8rem;
+    top: 66rem;
+    right: -1rem;
+}
+
+.section-7__photo {
+    position: absolute;
+    width: 37rem;
+    height: 37rem;
+    border-radius: 50%;
+    top: 10.3rem;
+    left: -18.5rem;
+}
+
+.section-7__statistics {
+    position: absolute;
+    width: 53.8rem;
+    height: 53.8rem;
+    top: 48.4rem;
+    left: 10rem;
+}
+
+.section-7__statistics-link {
+    color: #4C0085;
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding-bottom: 3px;
+    border-bottom: #4C0085 1px dashed;
+}
+
+@media (max-width: 1000px) {
+    .section-7 > * {
+        padding: 0 3rem;
+    }
+
+    .section-7__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .section-7__description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .section-7__auto {
+        display: none;
+    }
+
+    .section-7__photo {
+        position: static;
+    }
+
+    .section-7__info-circle {
+        position: static;
+    }
+}
+
+@media (max-width: 1300px) {
+    .section-7__auto {
+        display: none;
+    }
+
+    .section-7__photo {
+        position: static;
+        width: 29.2rem;
+        height: 29.2rem;
+    }
+
+    .section-7__info-circle {
+        position: static;
+    }
+}
+
+.section-8__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+.section-8__header {
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 4.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4rem;
+}
+
+.section-8__description {
+    color: #FFF;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin-bottom: 4.4rem;
+}
+
+@media (max-width: 1000px) {
+    .section-8 > * {
+        padding: 0 3rem 5rem;
+    }
+
+    .section-8__header {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .section-8__description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}

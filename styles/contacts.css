@@ -1,0 +1,127 @@
+.contacts {
+    display: flex;
+    justify-content: right;
+}
+
+.contacts__tel-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contacts__tel-group > span {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.contacts__tel-group > a {
+    font-size: 2.4rem;
+}
+
+.contacts__number {
+    font-weight: 500;
+}
+
+.tel-desc > span {
+    font-weight: bold;
+}
+
+.contacts__messenger-group {
+    display: flex;
+    margin-left: 2.6rem;
+}
+
+.contacts__messenger-icon {
+    margin-left: 0.6rem;
+}
+
+.contacts__messenger-icon:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 1000px) {
+/*#close-dropdown-menu {*/
+/*  display: block;*/
+/*}*/
+
+/*.header__desktop-logo {*/
+/*  display: none;*/
+/*}*/
+
+/*.header__mobile-logo {*/
+/*  display: flex;*/
+/*}*/
+
+/*.header__content-wrapper {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  gap: 1.85rem;*/
+/*  width: 100%;*/
+/*}*/
+
+/*.header__content-wrapper > a {*/
+/*  width: 100%;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*.header__mobile-logo > a {*/
+/*  display: flex;*/
+/*  height: 100%;*/
+/*  align-items: center;*/
+/*}*/
+
+/*nav {*/
+/*  position: absolute;*/
+/*  display: none;*/
+/*  background-color: rgba(76, 0, 133, 0.9);*/
+/*  padding: 4rem 4rem 0 5.4rem;*/
+/*}*/
+
+/*nav > .header__nav-list {*/
+/*  width: 100%;*/
+/*  flex-direction: column;*/
+/*}*/
+
+/*.header__nav-list > .header__nav-list-element {*/
+/*  margin: 0;*/
+/*  font-family: "Golos Text", sans-serif;*/
+/*  font-weight: 500;*/
+/*  font-size: 2.4rem;*/
+/*  line-height: 6.4rem;*/
+/*}*/
+
+/*nav.active {*/
+/*  display: flex;*/
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  z-index: 2;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*}*/
+
+/*.header__logo {*/
+/*  width: calc(100% - 6rem);*/
+/*  margin: 0 3rem;*/
+/*  height: 7rem;*/
+/*  justify-content: space-between;*/
+/*  padding: 0 3.4rem;*/
+/*}*/
+
+/*.header__logo i {*/
+/*  display: block;*/
+/*  cursor: pointer;*/
+/*}*/
+
+.contacts__number {
+    font-size: 2rem;
+}
+
+.contacts__tel-group a {
+    font-size: 2rem;
+}
+
+.contacts__tel-group span {
+    font-size: 1.2rem;
+}
+}

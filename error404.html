@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dostaver - полные правила</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/error404.css">
+    <script src="https://kit.fontawesome.com/fed00610f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header__content-wrapper">
+            <nav>
+                <ul class="header__nav-list">
+                    <li id="close-dropdown-menu" class="header__nav-list-element">
+                        <i class="fa-solid fa-xmark"></i>
+                    </li>
+                    <li class="header__nav-list-element">
+                        <a href="#">Правила</a>
+                    </li>
+                    <li class="header__nav-list-element">
+                        <a href="#">Тарифы</a>
+                    </li>
+                    <li class="header__nav-list-element">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="header__desktop-logo" href="main.html">
+                <div class="header__logo">
+                    <img src="images/logo.svg" alt="" />
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </a>
+
+            <div class="header__mobile-logo header__logo">
+                <a href="main.html">
+                    <img src="images/logo.svg" alt="" />
+                </a>
+                <i id="toggle-nav" class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="contacts">
+                <div class="contacts__tel-group">
+                    <a class="contacts__number" href="tel:+74994084770">
+                        +7 499 408 47 70
+                    </a>
+
+                    <span class="contacts__tel-desc">
+                  ежедневно с <span>08:00</span> до <span>20:00</span>
+                </span>
+                </div>
+
+                <div class="contacts__messenger-group">
+                    <div class="contacts__messenger-icon">
+                        <a href="#">
+                            <img src="images/wa.svg" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="contacts__messenger-icon">
+                        <a href="#">
+                            <img src="images/tg.svg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+
+        <main>
+            <section class="section-1">
+                <div class="section-1__content-wrapper">
+                    <div class="section-1__header">
+                        <h1 class="section-1__header-delivery">Ошибка 404</h1>
+                    </div>
+
+                    <h3 class="section-1__description">
+                        Такой страницы не существует. Маршрут перестроен.
+                    </h3>
+
+                    <a href="main.html">
+                        <div class="go-to-main-button">
+                            ВЕРНУТЬСЯ НА ГЛАВНУЮ
+                        </div>
+                    </a>
+
+                    <div class="section-1__route-wrapper">
+                        <img src="images/map-point.svg" alt="" class="section-1__map-point">
+                        <img src="images/route-1.svg" alt="" class="section-1__route">
+                    </div>
+
+                    <img src="images/stock.svg" alt="" class="section-1__stock">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer__logo">
+                <img src="images/logo.svg" alt="" />
+            </div>
+
+            <div class="footer__intelligence">
+                <p>ИП Каткаев Владислав Наранович</p>
+                <p>ИНН 372003215258</p>
+            </div>
+
+            <div class="footer__links">
+                <a href="#">
+                    <span> Политика конфиденциальности </span>
+                </a>
+                <a href="#">
+                    <span> Полные правила </span>
+                </a>
+            </div>
+
+            <div class="contacts">
+                <div class="contacts__tel-group">
+                    <a class="contacts__number" href="tel:+74994084770">
+                        +7 499 408 47 70
+                    </a>
+                    <span class="contacts__description">
+                ежедневно с <span>08:00</span> до <span>20:00</span>
+              </span>
+                </div>
+
+                <div class="contacts__messenger-group">
+                    <div class="contacts__messenger-icon">
+                        <a href="#">
+                            <img src="images/wa.svg" alt="" />
+                        </a>
+                    </div>
+                    <div class="contacts__messenger-icon">
+                        <a href="#">
+                            <img src="images/tg.svg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script defer src="scripts/dropdown-menu.js"></script>
+</body>
+</html>

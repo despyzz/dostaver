@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dostaver</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <script
+      src="https://kit.fontawesome.com/fed00610f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__content-wrapper">
+        <nav>
+          <ul class="header__nav-list">
+            <li id="close-dropdown-menu" class="header__nav-list-element">
+              <i class="fa-solid fa-xmark"></i>
+            </li>
+            <li class="header__nav-list-element">
+              <a href="./rules.html">Правила</a>
+            </li>
+            <li class="header__nav-list-element">
+              <a href="./error404.html">Тарифы</a>
+            </li>
+            <li class="header__nav-list-element">
+              <a href="./error404.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="header__desktop-logo" href="main.html">
+          <div class="header__logo">
+            <img src="images/logo.svg" alt="" />
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </a>
+
+        <div class="header__mobile-logo header__logo">
+          <a href="main.html">
+            <img src="images/logo.svg" alt="" />
+          </a>
+          <i id="toggle-nav" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="contacts">
+          <div class="contacts__tel-group">
+            <a class="contacts__number" href="tel:+74994084770">
+              +7 499 408 47 70
+            </a>
+
+            <span class="contacts__tel-desc">
+              ежедневно с <span>08:00</span> до <span>20:00</span>
+            </span>
+          </div>
+
+          <div class="contacts__messenger-group">
+            <div class="contacts__messenger-icon">
+              <a href="#">
+                <img src="images/wa.svg" alt="" />
+              </a>
+            </div>
+
+            <div class="contacts__messenger-icon">
+              <a href="#">
+                <img src="images/tg.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-1">
+        <div class="section-1__content-wrapper">
+          <div class="section-1__header">
+            <h1 class="section-1__header-delivery">Курьерская доставка</h1>
+            <h2 class="section-1__header-area">
+              для интернет-магазинов в пределах Москвы и МО
+            </h2>
+          </div>
+
+          <h3 class="section-1__description">
+            Обеспечим вашему бизнесу доставку точно в срок и с удобной
+            возможностью оплаты заказов для вас и ваших клиентов
+          </h3>
+
+          <form class="form" method="post" action="#">
+            <div class="form__tel-wrapper">
+              <label>
+                <input
+                  class="form__tel"
+                  type="tel"
+                  placeholder="Введите номер телефона"
+                />
+              </label>
+              <button type="submit" class="form__callback">ПЕРЕЗВОНИТЕ МНЕ</button>
+            </div>
+
+            <div class="form__checkbox-wrapper">
+              <div class="form__checkbox checkbox-container">
+                <i class="fa-solid fa-check toggle-checkbox"></i>
+                <input class="checkbox-input" type="hidden" value="false">
+              </div>
+              <span class="form__agreement">
+                Я согласен с
+                <a class="form__link" href="#">
+                  политикой конфиденциальности
+                </a>
+              </span>
+            </div>
+          </form>
+
+          <div class="section-1__97-wrapper">
+            <div class="section-1__97">
+              <div class="section-1__97-ellipse">
+                <p class="section-1__percents">97%</p>
+                <p class="section-1__orders">заказов</p>
+              </div>
+              <p class="section-1__97-description">
+                доставили <span>вовремя</span> в декабре 2021
+              </p>
+            </div>
+          </div>
+
+          <div class="section-1__route-wrapper">
+            <img src="images/map-point.svg" alt="" class="section-1__map-point">
+            <img src="images/route-1.svg" alt="" class="section-1__route">
+          </div>
+
+          <img src="images/stock.svg" alt="" class="section-1__stock">
+        </div>
+      </section>
+
+      <section class="section-2">
+        <div class="section-2__content-wrapper">
+          <div class="section-2__header">Стоимость курьерских услуг</div>
+
+          <div class="section-2__description">
+            Вес и стоимость в таблице указаны для одной доставки
+          </div>
+
+          <div class="section-2__table">
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell section-2__top-left-cell">
+                Доставок в день
+              </div>
+              <div class="section-2__table-cell">от 51</div>
+              <div class="section-2__table-cell">до 50</div>
+              <div class="section-2__table-cell">до 25</div>
+              <div class="section-2__table-cell section-2__top-right-cell">
+                до 10
+              </div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">Вес, до</div>
+              <div class="section-2__table-cell"></div>
+              <div class="section-2__table-cell"></div>
+              <div class="section-2__table-cell"></div>
+              <div class="section-2__table-cell"></div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">1 кг.</div>
+              <div class="section-2__table-cell">180</div>
+              <div class="section-2__table-cell">200</div>
+              <div class="section-2__table-cell">220</div>
+              <div class="section-2__table-cell">240</div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">3 кг.</div>
+              <div class="section-2__table-cell">200</div>
+              <div class="section-2__table-cell">220</div>
+              <div class="section-2__table-cell">240</div>
+              <div class="section-2__table-cell">260</div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">5 кг.</div>
+              <div class="section-2__table-cell">220</div>
+              <div class="section-2__table-cell">240</div>
+              <div class="section-2__table-cell">260</div>
+              <div class="section-2__table-cell">280</div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">10 кг.</div>
+              <div class="section-2__table-cell">270</div>
+              <div class="section-2__table-cell">290</div>
+              <div class="section-2__table-cell">310</div>
+              <div class="section-2__table-cell">330</div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">15 кг.</div>
+              <div class="section-2__table-cell">350</div>
+              <div class="section-2__table-cell">390</div>
+              <div class="section-2__table-cell">410</div>
+              <div class="section-2__table-cell">430</div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell">20 кг.</div>
+              <div class="section-2__table-cell">400</div>
+              <div class="section-2__table-cell">430</div>
+              <div class="section-2__table-cell">470</div>
+              <div class="section-2__table-cell">490</div>
+            </div>
+            <div class="section-2__table-row">
+              <div class="section-2__table-cell section-2__bottom-left-cell">
+                Забор товара
+              </div>
+              <div class="section-2__table-cell">0</div>
+              <div class="section-2__table-cell">0</div>
+              <div class="section-2__table-cell">0</div>
+              <div class="section-2__table-cell section-2__bottom-right-cell">
+                290
+              </div>
+            </div>
+            <div class="section-2__route1"></div>
+            <div class="section-2__route2"></div>
+          </div>
+
+          <div class="section-2__auto-wrapper">
+            <img src="images/auto.svg" alt="" class="section-2__auto">
+            <img src="images/s2-route1.svg" alt="" class="section-2__route-1">
+            <img src="images/s2-route2.svg" alt="" class="section-2__route-2">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3">
+        <div class="section-3__header">
+          Организация процессов без лишней бюрократии
+        </div>
+
+        <div class="section-3__description">
+          Быстро. Удобно. Понятно
+        </div>
+
+        <div class="section-3__info-blocks-wrapper">
+          <div class="section-3__block">
+            <div class="section-3__block-header">
+              <div class="section-3__block-number">1</div>
+
+              <div class="section-3__block-description">
+                <p>Отправьте нам запрос</p>
+                <p>на доставку товаров</p>
+              </div>
+            </div>
+
+            <div class="section-3__block-text">
+              <p>
+                Сообщите нам, что вы хотите заказать услуги курьерской доставки,
+                чтобы наш курьер забрал ваши посылки вечером в тот же день.
+              </p>
+              <p>
+                Связаться с нами вы можете любым удобным способом: позвонить,
+                написать в мессенджер, отправить e-mail.
+              </p>
+            </div>
+          </div>
+
+          <div class="section-3__block">
+            <div class="section-3__block-header">
+              <div class="section-3__block-number">2</div>
+
+              <div class="section-3__block-description">
+                <p>Подготовьте посылки</p>
+                <p>и передайте курьеру</p>
+              </div>
+            </div>
+
+            <div class="section-3__block-text">
+              <p>Подготовьте ваши посылки до приезда курьера.</p>
+              <p>
+                Заказы должны быть упакованы в герметичный пакет или коробку.
+              </p>
+              <p>
+                Курьер приедет за посылкой в удобный 3-часовой интервал в рамках
+                времени с <span>16:00 до 22:00</span>.
+              </p>
+            </div>
+          </div>
+
+          <div class="section-3__block">
+            <div class="section-3__block-header">
+              <div class="section-3__block-number">3</div>
+
+              <div class="section-3__block-description">
+                <p>На следующий день развезем</p>
+                <p>посылки в указанное время</p>
+              </div>
+            </div>
+
+            <div class="section-3__block-text">
+              <p>
+                Мы развозим заказы в указанный 3-часовой интервал в рамках
+                времени с <span>8:00 до 22:00</span>.
+              </p>
+              <p>Перед выездом на адрес курьер всегда звонит клиенту.</p>
+            </div>
+          </div>
+
+          <div class="section-3__block">
+            <div class="section-3__block-header">
+              <div class="section-3__block-number">4</div>
+
+              <div class="section-3__block-description">
+                <p>Получите от нас вырчку</p>
+                <p>с доставок и отчет</p>
+              </div>
+            </div>
+
+            <div class="section-3__block-text">
+              <p>
+                На следующий день после доставки заказов мы отправим вам
+                подробный отчёт.
+              </p>
+            </div>
+
+            <a class="section-3__block-link" href="./error404.html">Пример отчета</a>
+          </div>
+
+          <div class="section-3__images-wrapper">
+            <img src="images/box.svg" alt="" class="section-3__box1 box">
+            <img src="images/box.svg" alt="" class="section-3__box2 box">
+            <img src="images/box.svg" alt="" class="section-3__box3 box">
+            <img src="images/box.svg" alt="" class="section-3__box4 box">
+          </div>
+        </div>
+
+        <a class="section-3__more-details" href="./rules.html">
+          Подробнее
+        </a>
+
+        <div class="section-3__house-wrapper">
+          <img src="images/s3-route.svg" alt="" class="section-3__route">
+          <img src="images/map-point.svg" alt="" class="section-3__map-point">
+          <img src="images/house.svg" alt="" class="section-3__house">
+        </div>
+      </section>
+
+      <section class="section-4">
+        <div class="section-4__header">
+          Работая с нами, вы на 100 % соблюдаете 54-ФЗ
+        </div>
+
+        <div class="section-4__description">
+          <div class="section-4__description-block">
+            <p>
+              Курьеры Dostaver не ограничены лишь наличным методом приёма
+              выручки.
+            </p>
+          </div>
+          <div class="section-4__description-block">
+            <p>
+              Каждый курьер имеет при себе мобильный терминал aQsi 5 со
+              встроенным эквайрингом.
+            </p>
+          </div>
+          <div class="section-4__description-block">
+            <p>Ваши клиенты могут по факту оплачивать заказ картой</p>
+            <p>и получать бумажный кассовый чек.</p>
+          </div>
+        </div>
+
+        <form class="form">
+          <div class="form__tel-wrapper">
+            <label>
+              <input
+                class="form__tel"
+                type="tel"
+                placeholder="Введите номер телефона"
+              />
+            </label>
+            <button class="form__callback">ОБСУДИТЬ СОТРУДНИЧЕСТВО</button>
+          </div>
+
+          <div class="form__checkbox-wrapper">
+            <div class="form__checkbox checkbox-container">
+              <i class="fa-solid fa-check toggle-checkbox"></i>
+              <input class="checkbox-input" type="hidden" value="false">
+            </div>
+            <span class="form__agreement">
+              Я согласен с
+              <a class="form__link" href="./privacy.html"> политикой конфиденциальности </a>
+            </span>
+          </div>
+        </form>
+
+        <div class="section-4__images">
+          <img src="images/payment.svg" alt="" class="section-4__payment">
+        </div>
+      </section>
+
+      <section class="section-5">
+        <div class="section-5__content-wrapper">
+          <div class="section-5__header">Важная информация</div>
+
+          <div class="section-5__information-blocks-wrapper">
+            <div class="section-5__information-block section-5__information-block_w50">
+              <i class="fa-solid fa-circle-info"></i>
+              <p>
+                на каждом чеке <span>в графе «продавец» будет</span>
+                <span> напечатано название вашего юр. лица,</span> в том числе и
+                на цифровых чеках в онлайн ОФД
+              </p>
+            </div>
+
+            <div
+              class="section-5__information-block section-5__information-block_w50"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+              <p>
+                <span>на следующий день</span> после доставок мы
+                <span>переводим</span> на ваш расчётный счёт всю выручку:
+                наличные оплаты и оплаты по терминалу
+              </p>
+            </div>
+
+            <div
+              class="section-5__information-block section-5__information-block_w33"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+              <p>
+                стоимость кассового обслуживания
+                <span>0,7% от суммы чека</span>
+              </p>
+            </div>
+
+            <div
+              class="section-5__information-block section-5__information-block_w33"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+              <p>
+                стоимость эквайринга
+                <span>1,7% от суммы чека</span>
+              </p>
+            </div>
+
+            <div
+              class="section-5__information-block section-5__information-block_w33"
+            >
+              <i class="fa-solid fa-circle-info"></i>
+              <p>
+                оплата за страховой сбор
+                <span>0,5% от объявленной ценности</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-6">
+        <div class="section-6__content-wrapper">
+          <div class="section-6__header">
+            Ваши клиенты будут в курсе о статусе своих доставок
+          </div>
+
+          <div class="section-6__description">
+            Вашим менеджерам не придётся заниматься дополнительной работой и
+            отвечать всем клиентам, когда они получат свои посылки.
+            <span>Информирование мы полностью берём на себя.</span> Связываемся
+            с вами только в случае необходимости, если клиент не выходит на
+            связь
+          </div>
+
+          <div class="section-6__cards">
+            <div class="section-6__card">
+              <div class="section-6__card-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <div class="section-6__card-header">Звоним заранее</div>
+
+              <div class="section-6__card-description">
+                Курьер всегда заранее звонит клиенту. Если ответа нет, с
+                клиентом пытается связаться наш менеджер.
+              </div>
+            </div>
+
+            <div class="section-6__card">
+              <div class="section-6__card-icon">
+                <i class="fa-solid fa-bell"></i>
+              </div>
+
+              <div class="section-6__card-header">Сообщаем вам</div>
+
+              <div class="section-6__card-description">
+                Если и у менеджера не получилось дозвониться клиенту, мы
+                обязательно сообщаем об этом вам.
+              </div>
+            </div>
+
+            <div class="section-6__card">
+              <div class="section-6__card-icon">
+                <i class="fa-solid fa-car"></i>
+              </div>
+
+              <div class="section-6__card-header">Доставка без связи</div>
+
+              <div class="section-6__card-description">
+                Курьер может поехать на доставку несмотря на отсутствие связи с
+                клиентом, если вы так решите.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-7">
+        <div class="section-7__content-wrapper">
+          <div class="section-7__header">
+            Мой опыт — ваша гарантия качественных услуг доставки
+          </div>
+
+          <div class="section-7__description">
+            <p>
+              Будем знакомы — <span>Владислав Каткаев</span>, основатель
+              курьерской службы Dostaver, лично контролирую работу курьеров.
+            </p>
+          </div>
+
+          <div class="section-7__images">
+            <img src="images/photo.webp" alt="" class="section-7__photo">
+
+            <div class="section-7__info-circle section-7__info-circle-1">
+              <div class="section-7__info-circle-header">6 лет</div>
+              <div class="section-7__info-circle-description">
+                <p>с 2016 работаю в сфере</p>
+                <p>курьерских доставок</p>
+              </div>
+            </div>
+
+            <div class="section-7__info-circle section-7__info-circle-2">
+              <div class="section-7__info-circle-header">12</div>
+              <div class="section-7__info-circle-description">
+                <p>собрал команду из 12</p>
+                <p>курьеров (пешие + авто)</p>
+              </div>
+            </div>
+
+            <div class="section-7__info-circle section-7__info-circle-3">
+              <div class="section-7__info-circle-header">4000+</div>
+              <div class="section-7__info-circle-description">
+                <p>доставил минимум 4000</p>
+                <p>разных посылок</p>
+              </div>
+            </div>
+
+            <div class="section-7__info-circle section-7__statistics">
+              <div class="section-7__info-circle-header">2700+</div>
+              <div class="section-7__info-circle-description">
+                клиентов из YouDo оценили мою работу на 5
+                по статистике за 3 года работы — с 2019 по 2021
+              </div>
+              <img src="images/statistics.webp" alt="" />
+              <a class="section-7__statistics-link" href="./error404.html">
+                <span> Посмотреть профиль </span>
+              </a>
+            </div>
+             <img src="images/section-7-auto.svg" alt="" class="section-7__auto">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-8">
+        <div class="section-8__content-wrapper">
+          <div class="section-8__header">
+            <p>Отправляйте заявку, чтобы обсудить</p>
+            <p>условия сотрудничества</p>
+          </div>
+
+          <div class="section-8__description">
+            <p>или свяжитесь с нами как вам будет удобно — по телефону</p>
+            <p>либо в одном из мессенджеров</p>
+          </div>
+
+          <form class="form">
+            <div class="form__tel-wrapper">
+              <label>
+                <input
+                  class="form__tel"
+                  type="tel"
+                  placeholder="Введите номер телефона"
+                />
+              </label>
+              <button class="form__callback">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+            </div>
+
+            <div class="form__checkbox-wrapper">
+              <div class="form__checkbox checkbox-container">
+                <i class="fa-solid fa-check toggle-checkbox"></i>
+                <input class="checkbox-input" type="hidden" value="false">
+              </div>
+              <span class="form__agreement">
+                Я согласен с
+                <a class="form__link" href="./privacy.html">
+                  политикой конфиденциальности
+                </a>
+              </span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div id="thanks" class="modal">
+      <div class="modal-content">
+        <img src="images/thanks.svg" alt="" class="thanks__image">
+        <h2>Спасибо за заявку!</h2>
+        <p>В ближайшее время мы свяжемся с вами</p>
+        <i class="fa-solid fa-xmark close-icon"></i>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+
+      <div class="footer__intelligence">
+        <p>ИП Каткаев Владислав Наранович</p>
+        <p>ИНН 372003215258</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#">
+          <span> Политика конфиденциальности </span>
+        </a>
+        <a href="#">
+          <span> Полные правила </span>
+        </a>
+      </div>
+
+      <div class="contacts">
+        <div class="contacts__tel-group">
+          <a class="contacts__number" href="tel:+74994084770">
+            +7 499 408 47 70
+          </a>
+          <span class="contacts__description">
+            ежедневно с <span>08:00</span> до <span>20:00</span>
+          </span>
+        </div>
+
+        <div class="contacts__messenger-group">
+          <div class="contacts__messenger-icon">
+            <a href="#">
+              <img src="images/wa.svg" alt="" />
+            </a>
+          </div>
+          <div class="contacts__messenger-icon">
+            <a href="#">
+              <img src="images/tg.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollToTopButton" class="hidden" onclick="scrollToTop()">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script defer src="scripts/close-modal.js"></script>
+    <script defer src="scripts/toggle-checkboxes.js"></script>
+    <script defer src="scripts/dropdown-menu.js"></script>
+    <script defer src="scripts/scroll-to-top-button.js"></script>
+    <script defer src="scripts/form.js"></script>
+    <script defer src="scripts/phone-mask.js"></script>
+    <script defer src="scripts/validate-tel.js"></script>
+  </body>
+</html>
